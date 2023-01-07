@@ -4,17 +4,20 @@ body{
     /* width: 100%; */
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
 .flex-box{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     width: 100%;
     height: 900px;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 .sidebar{
-    margin-left: 100px;
+    margin-left: 300px;
     overflow: hidden;
     height: 900px;
     width: 30%;
@@ -24,17 +27,13 @@ body{
     background-repeat: no-repeat;
     background-size: 400px;
 }
-.step-1{
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-}
-
 .steps{
     display: flex;
     flex-direction: row;
     margin-left: 60px;
     margin-bottom: -30px;
+    color: hsl(206, 94%, 87%);
+    text-transform: uppercase;
 }
 .steps_1{
     margin-top: 20px;
@@ -42,10 +41,10 @@ body{
 }
 .steps_1>h5{
     font-size: 20px;
-    font-weight: bolder;
-    background-color: hsl(206, 94%, 87%);
+    font-weight: medium;
     padding: 12px 18px 12px 18px;
     border-radius: 100px;
+    border: 3px solid hsl(206, 94%, 87%);
 }
 .steps_2{
     margin-top: 20px;
@@ -59,4 +58,53 @@ body{
     margin-bottom: -25px;
     font-size: 20px;
     font-weight: lighter;
+    opacity: 0.5;
+}
+.step-1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.step-1>h2{
+    font-size: 45px;
+    color: hsl(213, 96%, 18%);
+}
+.step-1>p{
+    font-size: 18px;
+    opacity: 0.7;
+    margin-top: -20px;
+    word-spacing: 2px;
+}
+
+.form-1>div>label{
+    font-size: 20px;
+    color: hsl(213, 96%, 18%);
+    font-weight: 500;
+}
+.form-1>div>input{
+    width: 500px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.form-info{
+    margin-bottom: 30px;
+}
+.form-1>button{
+    float: right;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    background-color: hsl(213, 96%, 18%);
+    border-radius: 10px;
 }

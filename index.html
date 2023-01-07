@@ -8,6 +8,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Multi-step form</title>
 
@@ -31,8 +34,8 @@
       <div class="steps">
         <div class="steps_1">
           <h5>
-          1
-        </h5>
+            1
+          </h5>
         </div>
         <div class="steps_2">
           <h5>Step 1</h5>
@@ -43,8 +46,8 @@
       <div class="steps">
         <div class="steps_1">
           <h5>
-          2
-        </h5>
+            2
+          </h5>
         </div>
         <div class="steps_2">
           <h5>Step 1</h5>
@@ -54,8 +57,8 @@
       <div class="steps">
         <div class="steps_1">
           <h5>
-          3
-        </h5>
+            3
+          </h5>
         </div>
         <div class="steps_2">
           <h5>Step 3</h5>
@@ -65,8 +68,8 @@
       <div class="steps">
         <div class="steps_1">
           <h5>
-          4
-        </h5>
+            4
+          </h5>
         </div>
         <div class="steps_2">
           <h5>Step 4</h5>
@@ -77,54 +80,51 @@
     <!-- Sidebar end -->
 
     <!-- Step 1 start -->
-    <div class="step-1">
-      <p>Personal info</p>
+    <div class="step-1" id="none">
+      <h2>Personal info</h2>
       <p>Please provide your name, email address, and phone number.</p>
 
-      <form action="">
-        <div>
+      <form action="" class="form-1">
+        <div class="form-info">
           <label for="name">Name</label>
           <br>
           <input type="text" id="name" name="name" placeholder="e.g. Stephen King" required>
         </div>
-        <div>
+        <div class="form-info">
           <label for="email">Email Address</label>
           <br>
           <input type="email" id="email" name="email" placeholder="e.g. stephenking@lorem.com" required>
         </div>
-        <div>
+        <div class="form-info">
           <label for="phone">Phone Number</label>
           <br>
           <input type="tel" id="phone" name="phone" placeholder="e.g. +234 567 9890 999 " required>
         </div>
-        <input type="submit" id="submit" name="submit" value="Next Step">
+        <button type="submit" id="submit" name="submit">Next Step</button>
       </form>
-
-
-
     </div>
     <!-- Step 1 end -->
 
     <!-- Step 2 start -->
+    <!-- <div class="step-1">
+      Select your plan
+      You have the option of monthly or yearly billing.
 
-    <!-- Select your plan
-    You have the option of monthly or yearly billing.
+      Arcade
+      $9/mo
 
-    Arcade
-    $9/mo
+      Advanced
+      $12/mo
 
-    Advanced
-    $12/mo
+      Pro
+      $15/mo
 
-    Pro
-    $15/mo
+      Monthly
+      Yearly
 
-    Monthly
-    Yearly
-
-    Go Back
-    Next Step -->
-
+      Go Back
+      Next Step
+    </div> -->
     <!-- Step 2 end -->
 
     <!-- Step 3 start -->
