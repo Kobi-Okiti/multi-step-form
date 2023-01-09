@@ -106,40 +106,40 @@
     <!-- Step 1 end -->
 
     <!-- Step 2 start -->
-    <div class="step-1">
+    <div class="step-1" id="none">
       <h2>Select your plan</h2>
       <p>You have the option of monthly or yearly billing.</p>
       <div class="plans">
-        <div class="plans-notclick">
+        <div class="pick-notclick hover-effect">
           <img src="/assets/images/icon-arcade.svg" alt="" srcset="">
           <h2>Arcade</h2>
           <p>$9/mo</p>
         </div>
-        <div class="plans-notclick">
+        <div class="pick-notclick hover-effect">
           <img src="/assets/images/icon-advanced.svg" alt="" srcset="">
           <h2>Advanced</h2>
           <p>$12/mo</p>
         </div>
-        <div class="plans-notclick">
+        <div class="pick-notclick hover-effect">
           <img src="/assets/images/icon-pro.svg" alt="" srcset="">
           <h2>Pro</h2>
           <p>$15/mo</p>
         </div>
       </div>
       <div class="plans" id="none">
-        <div class="plans-notclick">
+        <div class="plans-notclick hover-effect">
           <img src="/assets/images/icon-arcade.svg" alt="" srcset="">
           <h2>Arcade</h2>
           <p>$90/mo</p>
           <h3>2 months free</h3>
         </div>
-        <div class="plans-notclick">
+        <div class="plans-notclick hover-effect">
           <img src="/assets/images/icon-advanced.svg" alt="" srcset="">
           <h2>Advanced</h2>
           <p>$120/mo</p>
           <h3>2 months free</h3>
         </div>
-        <div class="plans-notclick">
+        <div class="plans-notclick hover-effect">
           <img src="/assets/images/icon-pro.svg" alt="" srcset="">
           <h2>Pro</h2>
           <p>$150/mo</p>
@@ -152,7 +152,7 @@
           <input type="checkbox">
           <span class="slider round"></span>
         </label>
-      <p class="opaque-black">Yearly</p>
+        <p class="opaque-black">Yearly</p>
       </div>
       <div class="btns">
         <button class="btns-1">Go Back</button>
@@ -162,15 +162,56 @@
     <!-- Step 2 end -->
 
     <!-- Step 3 start -->
+    <div class="step-1">
+      <h2>Pick add-ons</h2>
+      <p>Add-ons help enhance your gaming experience.</p>
 
-    <!-- Pick add-ons
-    Add-ons help enhance your gaming experience.
+      <form action="" class="form-2">
+        <div class="form-check pick-notclick hover-effect">
+          <input type="checkbox" id="online-service" name="online-service">
+          <label for="online-service" class="form-check-pick">
+            <div>
+              <h3>Online service</h3>
+              <p>Access to multiplayer games</p>
+            </div>
+            <p class="p1">+$1/mo</p>
+            <p class="p1" id="none">+$10/yr</p>
+          </label>
+        </div>
+        <div class="form-check pick-notclick hover-effect">
+          <input type="checkbox" id="online-service" name="online-service">
+          <label for="online-service" class="form-check-pick">
+            <div>
+              <h3>Larger storage</h3>
+              <p>Extra 1TB of cloud save</p>
+            </div>
+            <p class="p2">+$2/mo</p>
+            <p class="p2" id="none">+$20/yr</p>
+          </label>
+        </div>
+        <div class="form-check pick-notclick hover-effect">
+          <input type="checkbox" id="online-service" name="online-service">
+          <label for="online-service" class="form-check-pick">
+            <div>
+              <h3>Customizable profile</h3>
+              <p>Custom theme on your profile </p>
+            </div>
+            <p class="p3">+$2/mo</p>
+            <p class="p3" id="none">+$20/yr</p>
+          </label>
+        </div>
+        <div class="btns extra-m">
+          <button class="btns-1">Go Back</button>
+          <button  class="btns-2" type="submit" id="submit" name="submit">Next Step</button>
+        </div>
+      </form>
+    </div>
 
-    Online service
-    Access to multiplayer games
-    +$1/mo
 
-    Larger storage
+
+
+
+    <!-- Larger storage
     Extra 1TB of cloud save
     +$2/mo
 

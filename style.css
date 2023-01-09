@@ -129,15 +129,15 @@ body{
     justify-content: space-between;
     margin-top: 30px;
 }
-.plans>div:hover{
+.hover-effect:hover{
     background-color: rgba(173, 190, 255, 0.2);
     border: 2px solid hsl(213, 96%, 18%);
 }
-.plans-onclick{
+.pick-onclick{
     background-color: rgba(173, 190, 255, 0.2);
     border: 2px solid hsl(213, 96%, 18%);
 }
-.plans-notclick{
+.pick-notclick{
     border: 2px solid hsl(229, 24%, 87%);
 }
 .plans>div{
@@ -276,3 +276,55 @@ body{
     background-color: hsl(213, 96%, 18%);
     border-radius: 10px;
 }
+
+.form-check{
+    display: flex;
+    flex-direction: row;
+}
+.form-check>input{
+    height: 25px;
+    width: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 40px;
+}
+.form-check>label{
+    display: flex;
+    flex-direction: row;
+}
+.form-check-pick>div>h3{
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.form-check-pick>div>p{
+    opacity: 0.5;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.p1{
+    margin-left: 100px;
+}
+.p2{
+    margin-left: 135px;
+}
+.p3{
+    margin-left: 80px;
+}
+.form-2{
+    margin-top: 40px;
+}
+.form-2>div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.extra-m{
+    margin-top: 135px;
+}
+
+
